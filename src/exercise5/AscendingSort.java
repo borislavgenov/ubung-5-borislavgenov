@@ -8,9 +8,9 @@ public class AscendingSort {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter number count: ");
-        int numberCount = input.nextInt();
+        int numbercount = input.nextInt();
 
-        int[] numbers = new int[numberCount];
+        int[] numbers = new int[numbercount];
 
         System.out.println("Enter numbers: ");
         for (int index = 0; index < numbers.length; index++) {
